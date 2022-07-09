@@ -1,0 +1,143 @@
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  font-size: 12px;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  background: rgb(97, 204, 119);
+  background: linear-gradient(90deg, rgba(97, 204, 119, 1) 45%, rgba(255, 255, 255, 1) 45%);
+}
+
+/* Header */
+.website-header {
+  align-items: center;
+  display: flex;
+  height: auto;
+  width: auto;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.website-nav {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+
+.name {
+  padding: 10px
+}
+
+.web-nav-element {
+  cursor: pointer;
+  padding: 10px 30px;
+}
+
+.change {
+  color: blueviolet;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Header End */
+
+
+/* page content */
+.flex-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.flex-box-1 {
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgreen;
+}
+
+.flex-box {
+  width: 400px;
+  height: 500px;
+  margin: 5px;
+  justify-content: center;
+}
+
+.page-content {
+  display: flex;
+  margin: auto;
+  height: 100vh;
+  
+}
+
+.me {
+  max-width: 200px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.job {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: rgb(121, 121, 226);
+  margin: auto;
+}
+
+
+.hello {
+  font-size: 5em;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 0.5em 2em;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #1976d2;
+  border: 0;
+  cursor: pointer;
+  margin: 1em;
+  margin-bottom: 20px;
+}
+
+/* page content end*/
+
+
+footer {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 2% 0 2%;
+  font-size: 16px;
+  line-height: 2;
+}
+
+footer i {
+  margin: 0 5px;
+}
+
+.footer-area {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  vertical-align: top;
+
+}
